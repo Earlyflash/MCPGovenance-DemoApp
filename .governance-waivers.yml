@@ -1,0 +1,11 @@
+# Waivers let a team knowingly accept a finding for a limited time. Each one is visible in the PR comment.
+# Required: rule_id, reason, approver, expires (YYYY-MM-DD, at most 90 days ahead).
+# Optional: path (a glob; default is every file). SEC-001 (secrets) can never be waived.
+#
+# waivers:
+#   - rule_id: SEC-002
+#     path: scripts/**
+#     reason: The command is a constant string with no user input.
+#     approver: some-reviewer
+#     expires: 2027-01-15
+waivers: []

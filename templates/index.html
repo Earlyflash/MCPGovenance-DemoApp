@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Governance demo</title>
+</head>
+<body>
+  <main>
+    <h1>{{ greeting }}, governance demo</h1>
+    <img src="/static/logo.png" alt="Demo app logo">
+    <form action="/subscribe" method="post">
+      <label for="email">Email address</label>
+      <input id="email" type="email" name="email" autocomplete="email">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p><a href="/healthz">Check service health</a></p>
+  </main>
+</body>
+</html>
