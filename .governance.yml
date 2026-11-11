@@ -1,0 +1,5 @@
+# The maturity of this product. Guardrails get stricter as it moves up:  scan -> pilot -> production
+# What applies at each stage: https://github.com/Earlyflash/MCPGovenance/blob/main/docs/guardrails.md
+# Raising it in a pull request re-checks the whole repository. It can only be lowered by a change that is
+# already on the main branch, and changes to this file need code owner approval.
+stage: pilot
