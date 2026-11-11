@@ -1,0 +1,5 @@
+# Waivers are exceptions to organisational policy, so the governance team must approve any change to them.
+# PoC: placeholder owner. Replace with the governance team, and require code owner review in a ruleset.
+/.governance-waivers.yml        @Earlyflash
+/.github/workflows/governance.yml  @Earlyflash
+/.github/CODEOWNERS             @Earlyflash
